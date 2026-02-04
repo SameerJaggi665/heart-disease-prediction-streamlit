@@ -1,18 +1,21 @@
 # ❤️ Heart Disease Prediction Web App
 
-A machine learning powered web application built using **Streamlit** that predicts the risk of heart disease based on patient health parameters.
+A machine learning–based web application that predicts the risk of heart disease using patient health parameters.
 
-## 🚀 Features
-- User-friendly web interface
-- Machine learning model (KNN)
+## 🚀 Live Demo
+🔗 https://heart-disease-prediction-app-cdo6fcce7agjvigxfqfacu.streamlit.app/
+
+## 📌 Features
+- Interactive Streamlit UI
+- Machine Learning model (KNN / SVM)
 - Real-time prediction
-- Scaled & encoded input handling
+- Scaled input using StandardScaler
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 - Python
 - Streamlit
 - Scikit-learn
-- Pandas
+- Pandas, NumPy
 - Joblib
 
 ## 📊 Input Parameters
@@ -22,10 +25,16 @@ A machine learning powered web application built using **Streamlit** that predic
 - Resting Blood Pressure
 - Cholesterol
 - Fasting Blood Sugar
+- Resting ECG
 - Max Heart Rate
 - Exercise-Induced Angina
-- ST Depression
+- Oldpeak
 - ST Slope
+
+## 🧠 Model
+- Algorithm: KNN / SVM
+- Preprocessing: One-Hot Encoding, Feature Scaling
+- Output: Binary classification (High risk / Low risk)
 
 ## ▶️ How to Run Locally
 ```bash
