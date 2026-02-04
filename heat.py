@@ -12,7 +12,7 @@ st.success("App loaded successfully")
 model=joblib.load("KNN_heart.pkl")
 scaler=joblib.load("scaler.pkl")
 expected_columns=joblib.load("columns.pkl")
-st.title("Heart stroke by Sameer")
+st.title("Heart disease predictor")
 st.markdown("provide the following details")
 age = st.slider("Age", 18, 100, 40)
 
